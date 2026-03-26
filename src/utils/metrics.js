@@ -50,6 +50,7 @@ export function getExplanation(title, status) {
   return "";
 }
 
+
 export function hasRegression(history, key, currentValue, title) {
   if (history.length < 5) return false;
 
@@ -65,3 +66,6 @@ export function hasRegression(history, key, currentValue, title) {
   return currentValue > average * 1.2;
 
 }
+
+
+
